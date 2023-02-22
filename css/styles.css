@@ -6,14 +6,25 @@
     --text-color-secondary: #2C2561;
 }
 
-h1 {
-    margin: 0;
-}
-
 body {
     margin: 0;
     text-align: center;
+    font-family: 'Merriweather', serif;
 }
+
+h1 {
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+}
+
+h2 {
+    font-family: 'Monserrat',sans-serif;
+}
+
+h3 {
+    font-family: 'Monserrat',sans-serif;
+}
+
 
 .header {
     background-color: var(--primary-color);

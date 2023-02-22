@@ -1,3 +1,54 @@
+:root {
+    --primary-color: #3A98B9;
+    --secondary-color: #FFF1DC;
+    --icon-color: #E8D5C4;
+    --text-color: #EEEEEE;
+    --text-color-secondary: #2C2561;
+}
+
+h1 {
+    margin: 0;
+}
+
 body {
+    margin: 0;
+    text-align: center;
+}
+
+.header {
+    background-color: var(--primary-color);
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 10px;
+    margin-left: 220px;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+.footer {
     background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: 5px;
+    margin-left:460px ;
+    border-style: solid;
+
+}
+
+.top-cloud {
+    
+    position: absolute;
+    right: 300px;
+}
+
+.lower-cloud {
+    position: absolute;
+    left: 300px
 }

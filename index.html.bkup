@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Luismap CV</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="icon" href="me.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <img class="top-cloud" src="images/cloud.png" alt="cloud image">
+            <h1> I'm luis</h1>
+            <h2>my intro</h2>
+            <img class="lower-cloud" src="images/cloud.png" alt="">
+            <img src="images/mountain.png" alt="">
+        </div>
+        <div class="middle">
+            <div>
+                <img class="me" src="images/avatar.png" alt="my photo">
+                <h1>Hello</h1>
+                <p>my intro.</p>
+            </div>
+            
+            <hr/>
+                <h1>my skills</h1>
+                <div class="myDivSkill">
+                    <img class="skills-odd" src="images/computer.png" alt="my skill
+                        one photo">
+                    <h2>skill name1</h2>
+                    <p>my skill explained asodfoa sdof aosdfo oadosfo oadf 
+                        asdf asdof oaosdf oasdf 
+                        asodfoaosdfoasodfo a asdf asdf asdfasdfasdfasdfasdf 
+                    </p>
+                </div>
+
+                <div class="myDivSkill">
+                    <img class="skills-even" src="images/chillies.png" alt="my skill
+                        two photo">
+                    <h2>skill name</h2>
+                    <p>my skill explained adkldalsdfo aosdfooasdfo asodfo aosdfo aosdfooodfasf
+                        asdfooasdfoasodf asdf asdf asdfasdf asdf asdf asdf 
+                        asdf asdf asdf asdf asdf asdf ooasdofo asdof  asdf asdfaferterhdfsgfasdfa sdt4 e e 
+                    </p>
+                </div>
+
+
+                <hr/>
+                <h1>Get in touch</h1>
+                <h2>Happy to see you here</h2>
+                <p>Lets try to keep in touch</p>
+                <button class="btn" type="button"> Contact Me</button>
+            </div>
+            <div class="footer">               
+                    <p class="personalLinks compactBox">LINKEDIN</p>
+                    <p class="personalLinks compactBox">TWITTER</p>
+                    <p>©2023 Luis Map @Luismap <p>
+                        </div>
+
+                    </body>
+                </html>

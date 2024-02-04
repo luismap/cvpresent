@@ -1,0 +1,128 @@
+:root {
+    --primary-color: #3A98B9;
+    --secondary-color: #FFF1DC;
+    --icon-color: #E8D5C4;
+    --text-color: #EEEEEE;
+    --text-color-secondary: #2C2561;
+    --accent-color: #FFC107;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-top-width: 6px;
+    width: 3%;
+    
+}
+
+h1 {
+    font-size: 5.625rem; /*1rem = 16px = 100%, use mainly for fonts*/
+    margin: 0;
+    font-family: 'Sacramento', cursive;
+    line-height: 2;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Monserrat',sans-serif;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Monserrat',sans-serif;
+}
+
+
+.header {
+    background-color: var(--primary-color);
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle {
+    background-color: var(--secondary-color);
+    padding: 10px;
+    color: var(--text-color-secondary);
+    margin: 0;
+}
+
+.footer {
+  padding: 20px;
+
+}
+
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+}
+
+.lower-cloud {
+    position: absolute;
+    left: 300px
+}
+
+.me {
+    border-radius: 20%;
+    height: 180px;
+    width: 180px;
+    margin: 20px;
+}
+
+.skills-odd{
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    float: left;
+    margin-right: 30px;
+}
+
+.skills-even{
+    border-radius: 100%;
+    height: 180px;
+    width: 180px;
+    float: right;
+    margin-left: 30px;
+}
+
+.personalLinks{
+    display: inline-block;
+}
+
+.compactBox{
+    margin: 0 10px 0 0;
+}
+
+.myDivSkill {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #2C2561;
+    font-size: 20px;
+    background: #E8D5C4;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 20px 0 20px 0;
+  }
+  
+  .btn:hover {
+    background: #FFC107;
+    text-decoration: none;
+  }

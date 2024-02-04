@@ -1,68 +1,123 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Luismap CV</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="icon" href="me.ico">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
-            rel="stylesheet">
-    </head>
-    <body>
-        <div class="header">
-            <img class="top-cloud" src="images/cloud.png" alt="cloud image">
-            <h1> I'm luis</h1>
-            <h2>my intro</h2>
-            <img class="lower-cloud" src="images/cloud.png" alt="">
-            <img src="images/mountain.png" alt="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Luismap CV</title>
+    <meta name="description" content>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="me.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg" style="background-color: var(--secondary-color);">
+        <a class="navbar-brand" href="#">Hidden brand</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-content"
+            aria-controls="header-content" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="header-content">
+                <ul class="nav navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#header">Intro</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#background">Background</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+    <section class="header" id="header">
+        <div class="row">
+            <div class="text-end top-cloud"><img class="top-cloud" src="images/cloud.png" alt="cloud image"></div>
         </div>
-        <div class="middle">
+        <div>
+            <h1 class="intro"> I'm luis</h1>
+        </div>
+        <div class="row">
             <div>
+                <h2 class="intro">my intro</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div> <img class="text-start lower-cloud" src="images/cloud.png" alt>
+            </div>
+        </div>
+        <div class="row">
+            <div class="mountain"> <img src="images/mountain.png" alt>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="middle" id="background">
+        <div class="text-center">
+            <div class="text-center">
                 <img class="me" src="images/avatar.png" alt="my photo">
-                <h1>Hello</h1>
-                <p>my intro.</p>
             </div>
-            
-            <hr/>
-                <h1>my skills</h1>
-                <div class="myDivSkill">
-                    <img class="skills-odd" src="images/computer.png" alt="my skill
+            <h1>Hello</h1>
+            <p>my intro.</p>
+        </div>
+
+        <div class="text-center">
+            <hr />
+        </div>
+        <h1>my skills</h1>
+        <div class="myDivSkill">
+            <img class="skills-odd" src="images/computer.png" alt="my skill
                         one photo">
-                    <h2>skill name1</h2>
-                    <p>my skill explained asodfoa sdof aosdfo oadosfo oadf 
-                        asdf asdof oaosdf oasdf 
-                        asodfoaosdfoasodfo a asdf asdf asdfasdfasdfasdfasdf 
-                    </p>
-                </div>
+            <h2>skill name1</h2>
+            <p>my skill explained asodfoa sdof aosdfo oadosfo oadf
+                asdf asdof oaosdf oasdf
+                asodfoaosdfoasodfo a asdf asdf asdfasdfasdfasdfasdf
+            </p>
+        </div>
 
-                <div class="myDivSkill">
-                    <img class="skills-even" src="images/chillies.png" alt="my skill
+        <div class="myDivSkill">
+            <img class="skills-even" src="images/chillies.png" alt="my skill
                         two photo">
-                    <h2>skill name</h2>
-                    <p>my skill explained adkldalsdfo aosdfooasdfo asodfo aosdfo aosdfooodfasf
-                        asdfooasdfoasodf asdf asdf asdfasdf asdf asdf asdf 
-                        asdf asdf asdf asdf asdf asdf ooasdofo asdof  asdf asdfaferterhdfsgfasdfa sdt4 e e 
-                    </p>
-                </div>
+            <h2>skill name</h2>
+            <p>my skill explained adkldalsdfo aosdfooasdfo asodfo aosdfo
+                aosdfooodfasf
+                asdfooasdfoasodf asdf asdf asdfasdf asdf asdf asdf
+                asdf asdf asdf asdf asdf asdf ooasdofo asdof asdf
+                asdfaferterhdfsgfasdfa sdt4 e e
+            </p>
+        </div>
 
+        <hr />
+        <h1>Get in touch</h1>
+        <h2 style="text-align: center;">Happy to see you here</h2>
+        <p style="text-align: center;">Lets try to keep in touch</p>
+        <div class="text-center">
+            <button class="btn" type="button"> Contact Me</button>
+        </div>
+    </section>
+    <section class="footer" id="footer">
+        <p class="personalLinks compactBox">LINKEDIN</p>
+        <p class="personalLinks compactBox">TWITTER</p>
+        <p>©2023 Luis Map @Luismap
+        <p>
+    </div>
 
-                <hr/>
-                <h1>Get in touch</h1>
-                <h2>Happy to see you here</h2>
-                <p>Lets try to keep in touch</p>
-                <button class="btn" type="button"> Contact Me</button>
-            </div>
-            <div class="footer">               
-                    <p class="personalLinks compactBox">LINKEDIN</p>
-                    <p class="personalLinks compactBox">TWITTER</p>
-                    <p>©2023 Luis Map @Luismap <p>
-                        </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 
-                    </body>
-                </html>
+</body>
+
+</html>

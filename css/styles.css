@@ -7,12 +7,13 @@
     --accent-color: #FFC107;
 }
 
+
 body {
     margin: 0;
-    text-align: center;
     font-family: 'Merriweather', serif;
     color: var(--text-color);
     background-color: var(--primary-color);
+   
 }
 
 hr {
@@ -20,6 +21,7 @@ hr {
     border-top-style: dotted;
     border-top-width: 6px;
     width: 3%;
+    margin: 0 auto;
     
 }
 
@@ -28,12 +30,14 @@ h1 {
     margin: 0;
     font-family: 'Sacramento', cursive;
     line-height: 2;
+    text-align: center;
 }
 
 h2 {
     font-size: 2.5rem;
     font-family: 'Monserrat',sans-serif;
     font-weight: normal;
+    text-align: auto;
 }
 
 h3 {
@@ -56,18 +60,27 @@ h3 {
 
 .footer {
   padding: 20px;
-
+  text-align: center;
 }
 
+
 .top-cloud {
-    
-    position: absolute;
-    right: 300px;
+   padding-right: 9rem;
+   padding-bottom: 1rem;
+}
+
+.intro {
+    padding-bottom: 1rem;
+    text-align: center;
 }
 
 .lower-cloud {
-    position: absolute;
-    left: 300px
+    padding-left: 9rem;
+    padding-bottom: 1rem;
+}
+
+.mountain {
+    text-align: center;
 }
 
 .me {
@@ -75,6 +88,7 @@ h3 {
     height: 180px;
     width: 180px;
     margin: 20px;
+    text-align: center;
 }
 
 .skills-odd{
@@ -119,6 +133,7 @@ h3 {
     padding: 10px 20px 10px 20px;
     text-decoration: none;
     margin: 20px 0 20px 0;
+    text-align: center;
   }
   
   .btn:hover {
